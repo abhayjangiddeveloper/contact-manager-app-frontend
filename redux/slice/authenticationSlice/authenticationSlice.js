@@ -2,8 +2,10 @@ import { createSlice } from "@reduxjs/toolkit";
 import { IS_KEEP_ME_LOGGED_IN } from "../../../utils/constant";
 
 //
+
+const isUserLoggedIn = localStorage.getItem(IS_KEEP_ME_LOGGED_IN);
 const initialState = {
-  isUserLoggedIn: JSON.parse(localStorage.getItem(IS_KEEP_ME_LOGGED_IN)),
+  isUserLoggedIn: isUserLoggedIn,
 };
 
 const authSlice = createSlice({
