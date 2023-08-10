@@ -1,10 +1,5 @@
 import Cookies from "js-cookie";
 import { USER_TOKEN } from "./constant";
-import store from "../redux/store";
-import {
-  loginUser,
-  logoutUser,
-} from "../redux/slice/authenticationSlice/authenticationSlice";
 
 //Get Error Message
 export function getErrorMessage(data) {
@@ -34,13 +29,11 @@ export function getErrorMessage(data) {
 
 // login user
 export const makeUserLogin = (res) => {
-  store.dispatch(loginUser());
   Cookies.set(USER_TOKEN, res.accessToken);
 };
 
 // logout user
 export const makeUserLogout = () => {
-  store.dispatch(logoutUser());
   Cookies.remove(USER_TOKEN);
 };
 
