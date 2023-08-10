@@ -1,0 +1,28 @@
+.buttonContainer {
+  position: relative;
+}
+
+.commonButton {
+  width: 100%;
+  padding: 2.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1.2rem;
+  background-color: var(--primary);
+  border: none;
+  cursor: pointer;
+  /* transition: background-color 0.2s ease-in-out; */
+  transition: 0.3s;
+}
+
+.commonButton:hover {
+  background-color: var(--primary-hover);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 500px) {
+  .commonButton {
+    cursor: auto;
+  }
+}

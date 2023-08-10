@@ -1,0 +1,13 @@
+.heading1 {
+  font-size: 6rem;
+  line-height: 7.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.pera {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: var(--black);
+}

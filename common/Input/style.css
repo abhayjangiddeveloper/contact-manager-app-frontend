@@ -1,0 +1,78 @@
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.inputClass {
+  background-color: var(--white);
+  outline: none;
+  padding: 2.5rem 7rem;
+  border: none;
+  border-radius: 1.2rem;
+  color: var(--black);
+  border: 0.2rem solid transparent;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.inputLabel {
+  font-size: 2rem;
+  font-weight: normal;
+  color: var(--black);
+}
+
+.inputClass::placeholder {
+  font-size: 2rem;
+  color: var(--black-light);
+}
+
+.inputClass:focus {
+  border: 0.2rem solid var(--primary);
+}
+
+.inputClass:focus ~ .inputLabel {
+  color: var(
+    --primary
+  ); /* Change the label color to the primary color on focus */
+}
+
+.inputStart {
+  position: absolute;
+  left: 0;
+  padding: 0rem 2.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.inputEnd,
+.error {
+  padding: 0rem 2.5rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.inputIcon {
+  width: 2.5rem;
+  height: auto;
+}
+
+.errorMessage {
+  font-size: 1.5rem;
+  color: var(--error);
+  text-transform: capitalize;
+}
+
+.labelColor {
+  color: var(--primary);
+}

@@ -1,0 +1,37 @@
+.light {
+  --primary: #3160d4;
+  --secondary: #9dffd4;
+  --primary-hover: #2c56be;
+  --secondary-hover: #8de5a2;
+  --black: #202020;
+  --offWhite: #fafafa;
+  --white: #ffffff;
+  --border: #3160d425;
+  --border-hover: #3160d475;
+  --error: #ff4d4f;
+  --light-grey: #fbfbfb;
+  --primary-light: #f5f7fd;
+  --red: #eb4646;
+  --yellow: #faad14;
+  --green: #52c41a;
+  --card-icon-background-color: #b7ebd4;
+}
+
+.dark {
+  --primary: #3160d4;
+  --secondary: #9dffd4;
+  --primary-hover: #2c56be;
+  --secondary-hover: #8de5a2;
+  --black: #202020;
+  --offWhite: #fafafa;
+  --border: #3160d425;
+  --border-hover: #3160d475;
+  --white: #ffffff;
+  --error: #ff4d4f;
+  --light-grey: #fbfbfb;
+  --primary-light: #f5f7fd;
+  --red: #eb4646;
+  --yellow: #faad14;
+  --green: #52c41a;
+  --card-icon-background-color: #b7ebd4;
+}
